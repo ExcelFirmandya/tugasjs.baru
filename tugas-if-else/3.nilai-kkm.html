@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+    var nama
+    nama=prompt("Hai,Siapa namamu?");
+    var nilai
+    nilai=prompt("berapa nilaimu?");
+    // Sangat Baik (A)  : nilai > 90
+    // Baik        (B)  : nilai > 83 && nilai < 91
+    // Cukup       (C)  : nilai > 75 && nilai < 83
+    if (nilai >90 && nilai <100 || nilai==100){
+        alert('"A" Hebat!')
+    }else if (nilai >83 && nilai <90 || nilai==83 || nilai==90){
+        alert('"B" Sipsip, tetap semangat!')
+    }else if (nilai >75 && nilai <83 || nilai==75){
+        alert('"C" Lumayan, rajin belajar yaa, semangat!')
+    }else if (nilai <75){
+        alert('"Waduh, ayo semangat!')
+    }else{
+        alert("maaf, sepertinya kamu salah input  ")
+    }
+
+    </script>
+
+    
+</body>
+</html>

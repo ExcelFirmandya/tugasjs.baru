@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+        var nilai=0;
+                var soalBiologi=
+                [
+            
+                {soal:"Hewan pemakan tumbuhan disebut?", jawaban:"herbivora"},
+                {soal:"Hewan pemakan daging disebut?",jawaban:"karnivora"},
+                {soal:"Hewan pemakan daging dan tumbuhan disebut?",jawaban:"omnivora"},
+                {soal:"Hewan pemakan serangga disebut?",jawaban:"insektivora",jawaban:insectivora},
+                {soal:"Hewan yang berkembang biak dengan cara melahirkan disebut?",jawaban:"vivipar"},
+                {soal:"Hewan yang berkembang biak dengan cara bertelur disebut?",jawaban:"ovipar"},
+                {soal:"Hewan yang berkembang biak dengan cara bertelur dan melahirkan disebut?",jawaban:"ovovivipar"},
+                {soal:"Proses penyesuaian diri makhluk hidup terhadap lingkungannya disebut?",jawaban:"adaptasi"},
+                {soal:"Bunglon memiliki ciri khusus, yaitu?",jawaban:"mimikri"},
+                {soal:"Ayam, bebek, burung berkembang biak dengan cara?",jawaban:"ovipar",jawaban:"bertelur"},
+            
+                ]
+                soalBiologi.forEach(function(data){
+                var jawaban = prompt(data.soal);
+                 if(jawaban == data.jawaban){
+                     nilai = nilai+1;
+                 }
+                });
+       alert(nilai);
+        </script>
+                
+                 
+        
+            
+</body>
+</html>
